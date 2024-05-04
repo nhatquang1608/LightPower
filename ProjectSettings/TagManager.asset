@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Bulb
+  - Input
+  - Output
+  - Power
   layers:
   - Default
   - TransparentFX
