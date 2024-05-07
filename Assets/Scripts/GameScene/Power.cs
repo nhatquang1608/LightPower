@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Power : MonoBehaviour
 {
+    public static bool waiting;
     [SerializeField] private LineRenderer lineRenderer;
     [SerializeField] private Animator animator;
 

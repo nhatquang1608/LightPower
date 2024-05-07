@@ -13,7 +13,7 @@ public class TopSceneManager : MonoBehaviour
 
     private void Awake()
     {
-        playButton.onClick.AddListener(() => SceneManager.LoadScene("SelectScene"));
+        playButton.onClick.AddListener(() => SceneManager.LoadScene("GameScene"));
         guidButton.onClick.AddListener(() => ShowGuid(true));
         exitButton.onClick.AddListener(() => ShowGuid(false));
 

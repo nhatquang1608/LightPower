@@ -8,6 +8,8 @@ TagManager:
   - Input
   - Output
   - Power
+  - Ground
+  - Box
   layers:
   - Default
   - TransparentFX
@@ -15,7 +17,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Surface
   - 
   - 
   - 
