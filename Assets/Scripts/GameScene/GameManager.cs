@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour
     {
         pause = false;
         listLevels[ListLevels.Instance.levelIndex].SetActive(true);
+        CharacterManager.moveInput = 0;
+        CharacterManager.jumpInput = false;
     }
 
     private void Start()

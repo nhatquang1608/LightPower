@@ -46,11 +46,11 @@ public class AndGate : MonoBehaviour
     {
         if(inputID == 1)
         {
-            timeInput1 = 5;
+            timeInput1 = 2;
         }
         else
         {
-            timeInput2 = 5;
+            timeInput2 = 2;
         }
 
         if(timeInput1 > 0 && timeInput2 > 0)
